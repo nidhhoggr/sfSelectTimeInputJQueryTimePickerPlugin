@@ -1,28 +1,39 @@
-<?xml version="1.0" encoding="##ENCODING##"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.4.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
   <name>sfSelectTimeInputJQueryTimePickerPlugin</name>
-  <channel>plugins.symfony-project.org</channel>
-  <summary>##SUMMARY##</summary>
-  <description>##SUMMARY##</description>
+  <channel>pear.symfony-project.com</channel>
+  <summary>A plugin used to implement a jquery time picker within the forms</summary>
+  <description>A plugin used to implement a jquery time picker within the forms</description>
   <lead>
-    <name>##LEAD_NAME##</name>
-    <user>##LEAD_USERNAME##</user>
-    <email>##LEAD_EMAIL##</email>
+    <name>Joseph M. Persie</name>
+    <user>zmijevik</user>
+    <email>persie.joseph@gmail.com</email>
     <active>yes</active>
   </lead>
-  <date>##CURRENT_DATE##</date>
+  <date>2012-04-12</date>
   <version>
-    <release>##PLUGIN_VERSION##</release>
-    <api>##API_VERSION##</api>
+    <release>0.0.9</release>
+    <api>1.4.0</api>
   </version>
   <stability>
-    <release>##STABILITY##</release>
-    <api>##STABILITY##</api>
+    <release>beta</release>
+    <api>beta</api>
   </stability>
   <license uri="http://www.symfony-project.org/license">MIT license</license>
   <notes>-</notes>
   <contents>
-    ##CONTENTS##
+    <dir name="/">
+      <file role="data" name="README" />
+      <file role="data" name="LICENSE" />
+      <dir name="config">
+        <file role="data" name="sfSelectTimeInputJqueryTimePickerPluginConfiguration.class.php" />
+      </dir>
+      <dir name="lib">
+        <dir name="widget">
+          <file role="data" name="sfWidgetFormSelectTimeInputJQueryTimePicker.class.php" />
+        </dir>
+      </dir>
+    </dir>
   </contents>
   <dependencies>
     <required>
