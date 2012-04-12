@@ -26,7 +26,7 @@
       <file role="data" name="README" />
       <file role="data" name="LICENSE" />
       <dir name="config">
-        <file role="data" name="sfSelectTimeInputJqueryTimePickerPluginConfiguration.class.php" />
+        <file role="data" name="sfSelectTimeInputJQueryTimePickerPluginConfiguration.class.php" />
       </dir>
       <dir name="lib">
         <dir name="widget">
@@ -53,5 +53,19 @@
     </required>
   </dependencies>
   <phprelease></phprelease>
-  <changelog></changelog>
+  <changelog>
+    <release>
+      <date>2012-04-12</date>
+      <version>
+        <release>0.0.9</release>
+        <api>1.4.0</api>
+      </version>
+      <stability>
+        <release>beta</release>
+        <api>beta</api>
+      </stability>
+      <license>MIT license</license>
+      <notes>-</notes>
+    </release>
+  </changelog>
 </package>
